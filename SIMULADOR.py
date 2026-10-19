@@ -17,7 +17,7 @@ niveis = [
 # Função que escolhe a cor conforme o nível (errei na hora de colocar a função, mas consegui corrigir com a ajuda da IA. A organização ficou melhor)
 def definir_cor(nivel):
     if nivel == 1:
-        return Fore.RED #letras das cores deu erro usando letras maiúsculas, mas consegui corrigir com a ajuda da IA    
+        return Fore.RED #letras das cores deu erro usando letras minusculas, mas consegui corrigir com a ajuda da IA    
     elif nivel == 2:
         return Fore.YELLOW
     elif nivel == 3:
